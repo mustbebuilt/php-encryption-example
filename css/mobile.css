@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400');
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+}
+.container{
+	width:100%;
+}
+h1,h2{
+	font-weight: 300;
+}
+label{
+	display:block;
+	font-weight: bold;
+	margin:15px 0 0 0;
+}
+input[type=text], input[type=password]{
+	padding:5px;
+	font-size:1.2rem;
+	width:100%;
+}
+input[type=submit]{
+	margin:15px 0 0 0;
+	font-size:1.2rem;
+	width:100%;
+}
+.error{
+	background-color: #9F0D00;
+	color:#D6E3E3;
+	font-weight: bold;
+	padding:5px 10px;
+}
+.debug{
+	width:80%;
+	border:2px dashed #FF8200;
+	padding:5px;
+	background-color: #B2A088;
+	margin: 20px auto 5px auto;
+	
+}
+
+
