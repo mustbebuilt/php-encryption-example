@@ -1,4 +1,4 @@
-# Basic MySQL / PHP encrytion example
+# Basic MySQL / PHP Encryption Example
 
 ## Registration Logic
 
