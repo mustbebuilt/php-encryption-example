@@ -1,5 +1,9 @@
 # Basic MySQL / PHP Encryption Example
 
+## Database Set up
+
+Set up a MySQL database table called `users`.  The `data/users.sql` has the necessary SQL.
+
 ## Registration Logic
 
 The `process/userRegistration.php` file checks if the provided user login and password are valid, and if the user with the same login does not already exist in the database. If the registration process is successful, it inserts the new user into the database.
